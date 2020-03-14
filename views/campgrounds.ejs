@@ -1,0 +1,12 @@
+<%- include ('partials/header'); -%>
+<h1>Here are the Campgrounds, pick your choice</h1>
+
+<h3>Most Popular</h3>
+<% campgrounds.forEach(function(campground){ %>
+  <div>
+    <h4><%= campground.name %></h4>
+    <img src="<%= campground.image %>" alt="">
+  </div>
+  <% }); %>
+  <%- include ('partials/footer'); -%>
+  

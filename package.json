@@ -1,0 +1,25 @@
+{
+  "name": "coltweb",
+  "version": "1.0.0",
+  "description": "A place to select your favorite camp ground if you ever want to go enjoy the nature with your family and loved ones",
+  "main": "ap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TySod/camp-ground.git"
+  },
+  "author": "Taiwo Sodiq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TySod/camp-ground/issues"
+  },
+  "homepage": "https://github.com/TySod/camp-ground#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
